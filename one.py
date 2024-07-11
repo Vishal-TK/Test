@@ -12,7 +12,7 @@ pipeline {
 
                     try {
 
-                        bat 'D:/Snyk/snyk-win.exe code test D:/Snyk/DVWA-master >> D:/Snyk/Report1.txt'
+                        bat 'D:/Snyk/snyk-win.exe code test D:/Snyk/DVWA-master >> D:/Snyk/Report_pipeline.txt'
 
                     } catch (Exception e) {
 
